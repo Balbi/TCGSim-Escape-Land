@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ESC-001",
+    "name": "Pathfinder Scout",
+    "type": "Unit",
+    "image": "https://placehold.co/400x560/1d3557/f1faee?text=ESC-001",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Faction": "Wanderers",
+      "Set": "Core"
+    }
+  },
+  {
+    "id": "ESC-002",
+    "name": "Breakthrough",
+    "type": "Spell",
+    "image": "https://placehold.co/400x560/457b9d/f1faee?text=ESC-002",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Faction": "Wanderers",
+      "Set": "Core"
+    }
+  }
+]

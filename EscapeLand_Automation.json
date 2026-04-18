@@ -1,0 +1,63 @@
+[
+  {
+    "id": "standard",
+    "setupProcess": [
+      {
+        "type": "deck_selection",
+        "name": "Deck Selection",
+        "options": {
+          "allowEdit": true,
+          "requireValidDeck": true
+        }
+      },
+      {
+        "type": "place_cards",
+        "name": "Place Starting Cards",
+        "options": {
+          "zones": [
+            {
+              "zoneId": "mainDeck",
+              "name": "Main Deck",
+              "count": -1,
+              "faceDown": true,
+              "deckSections": [
+                "unit",
+                "spell"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "turn_order",
+        "name": "Determine Turn Order",
+        "options": {
+          "method": "coin_flip"
+        }
+      },
+      {
+        "type": "shuffle",
+        "name": "Shuffle Deck",
+        "options": {
+          "targets": [
+            "mainDeck"
+          ]
+        }
+      },
+      {
+        "type": "select_cards",
+        "name": "Opening Hand",
+        "options": {
+          "source": "mainDeck",
+          "destination": "hand",
+          "cardCount": 5,
+          "type": "select",
+          "selectMin": 5,
+          "selectMax": 5,
+          "allowMultiple": true,
+          "replaceDestination": "trash"
+        }
+      }
+    ]
+  }
+]

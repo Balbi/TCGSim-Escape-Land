@@ -1,0 +1,9 @@
+{
+  "id": "escape-land",
+  "name": "Escape Land",
+  "data": "https://balbi.github.io/TCGSim-Escape-Land/EscapeLand_Data.json",
+  "coverPhoto": "https://placehold.co/1200x630/13293d/f5f7fa?text=Escape+Land",
+  "icon": "https://placehold.co/256x256/13293d/f5f7fa?text=EL",
+  "creatorName": "Balbi",
+  "versionNumber": "0.1.0"
+}
