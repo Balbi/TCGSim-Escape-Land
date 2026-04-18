@@ -6,7 +6,6 @@
         "type": "deck_selection",
         "name": "Deck Selection",
         "options": {
-          "allowEdit": true,
           "requireValidDeck": true
         }
       },
@@ -22,7 +21,7 @@
               "faceDown": true,
               "random": true,
               "deckSections": [
-                "monster"
+                "monsters"
               ]
             },
             {
@@ -32,7 +31,7 @@
               "faceDown": true,
               "random": true,
               "deckSections": [
-                "monster"
+                "monsters"
               ]
             },
             {
@@ -42,7 +41,7 @@
               "faceDown": true,
               "random": true,
               "deckSections": [
-                "monster"
+                "monsters"
               ]
             },
             {
@@ -50,9 +49,8 @@
               "name": "Delete Monster",
               "count": -1,
               "faceDown": true,
-              "random": true,
               "deckSections": [
-                "monster"
+                "monsters"
               ]
             },
             {
@@ -61,8 +59,7 @@
               "count": -1,
               "faceDown": true,
               "deckSections": [
-                "Basic Critter",
-                "Legendary Critter"
+                "critters"
               ]
             }
           ]
@@ -90,12 +87,11 @@
         "options": {
           "source": "mainDeck",
           "destination": "hand",
-          "cardCount": 5,
-          "type": "select",
-          "selectMin": 5,
-          "selectMax": 5,
-          "allowMultiple": true,
-          "replaceDestination": "trash"
+          "cardCount": 4,
+          "type": "replace_hand",
+          "allowMultiple": false,
+          "shuffleBeforeRedraw": true,
+          "revealRemoved": true
         }
       }
     ]

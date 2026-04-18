@@ -55,8 +55,8 @@
           "id": "main",
           "title": "Main Deck",
           "types": [
-            "Basic Critter",
-            "Legendary Critter",
+            "Basic",
+            "Legend",
             "Monster"
           ],
           "minCount": 44,
@@ -66,14 +66,11 @@
               "id": "critters",
               "title": "Critters",
               "allowedTypes": [
-                "Basic Critter",
-                "Legendary Critter"
+                "Basic",
+                "Legend"
               ],
               "default": true,
-              "listLabel": "MainDeck",
-              "listAliases": [
-                "Main Deck"
-              ],
+              "listLabel": "Main Deck",
               "minCount": 40,
               "maxCount": 40,
               "maxCopies": 3
@@ -85,10 +82,7 @@
                 "Monster"
               ],
               "default": true,
-              "listLabel": "MainDeck",
-              "listAliases": [
-                "Main Deck"
-              ],
+              "listLabel": "Monsters",
               "minCount": 4,
               "maxCount": 4,
               "maxCopies": 1
@@ -117,10 +111,10 @@
               "expand": false,
               "allowedCardTypes": [
                 {
-                  "type": "Basic Critter"
+                  "type": "Basic"
                 },
                 {
-                  "type": "Legendary Critter"
+                  "type": "Legend"
                 }
               ]
             },
@@ -130,10 +124,10 @@
               "expand": false,
               "allowedCardTypes": [
                 {
-                  "type": "Basic Critter"
+                  "type": "Basic"
                 },
                 {
-                  "type": "Legendary Critter"
+                  "type": "Legend"
                 }
               ]
             },
@@ -143,10 +137,10 @@
               "expand": false,
               "allowedCardTypes": [
                 {
-                  "type": "Basic Critter"
+                  "type": "Basic"
                 },
                 {
-                  "type": "Legendary Critter"
+                  "type": "Legend"
                 }
               ]
             },
@@ -156,10 +150,10 @@
               "expand": false,
               "allowedCardTypes": [
                 {
-                  "type": "Basic Critter"
+                  "type": "Basic"
                 },
                 {
-                  "type": "Legendary Critter"
+                  "type": "Legend"
                 }
               ]
             }
@@ -172,6 +166,7 @@
               "id": "monster1",
               "name": "Monster",
               "expand": false,
+              "disablePreview": true,
               "allowedCardTypes": [
                 {
                   "type": "Monster"
@@ -182,6 +177,7 @@
               "id": "monster2",
               "name": "Monster",
               "expand": false,
+              "disablePreview": true,
               "allowedCardTypes": [
                 {
                   "type": "Monster"
@@ -192,6 +188,7 @@
               "id": "monster3",
               "name": "Monster",
               "expand": false,
+              "disablePreview": true,
               "allowedCardTypes": [
                 {
                   "type": "Monster"
@@ -222,11 +219,11 @@
           "name": "Main Deck",
           "allowedCardTypes": [
             {
-              "type": "Basic Critter",
+              "type": "Basic",
               "faceDown": true
             },
             {
-              "type": "Legendary Critter",
+              "type": "Legend",
               "faceDown": true
             }
           ]
@@ -237,10 +234,10 @@
           "name": "Trash",
           "allowedCardTypes": [
             {
-              "type": "Basic Critter"
+              "type": "Basic"
             },
             {
-              "type": "Legendary Critter"
+              "type": "Legend"
             }
           ]
         }
