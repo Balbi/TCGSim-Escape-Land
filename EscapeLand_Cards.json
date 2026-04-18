@@ -1,30 +1,2399 @@
 [
   {
-    "id": "ESC-001",
-    "name": "Pathfinder Scout",
-    "type": "Unit",
-    "image": "https://placehold.co/400x560/1d3557/f1faee?text=ESC-001",
-    "cost": 1,
+    "id": "69e25cf7f82fa7a470e715a9",
+    "name": "Shadowflare",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/shadowflare-69e25cf7f82fa7a470e715a9.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-068",
+    "props": {
+      "Rarity": "Promo",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 5,
+      "CardNumber": null,
+      "SourceId": "69e25cf7f82fa7a470e715a9"
+    }
+  },
+  {
+    "id": "EL-068",
+    "name": "Shadowflare",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/shadowflare-EL-068.jpg",
+    "cost": 0,
     "isToken": false,
     "isHorizontal": false,
     "alternateOf": null,
     "props": {
-      "Faction": "Wanderers",
-      "Set": "Core"
+      "Rarity": "Rare",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 5,
+      "CardNumber": 68,
+      "SourceId": "69e25cdcf0388c247c42b7be"
     }
   },
   {
-    "id": "ESC-002",
-    "name": "Breakthrough",
-    "type": "Spell",
-    "image": "https://placehold.co/400x560/457b9d/f1faee?text=ESC-002",
+    "id": "69e233a485915dcb20d54819",
+    "name": "Tricktail",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/tricktail-69e233a485915dcb20d54819.jpg",
     "cost": 2,
     "isToken": false,
     "isHorizontal": false,
     "alternateOf": null,
     "props": {
-      "Faction": "Wanderers",
-      "Set": "Core"
+      "Rarity": "Promo",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 1,
+      "CardNumber": null,
+      "SourceId": "69e233a485915dcb20d54819"
+    }
+  },
+  {
+    "id": "69e2318db0034f96f3095b51",
+    "name": "Sphinxra",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/sphinxra-69e2318db0034f96f3095b51.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-076",
+    "props": {
+      "Rarity": "Promo",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 6,
+      "CardNumber": null,
+      "SourceId": "69e2318db0034f96f3095b51"
+    }
+  },
+  {
+    "id": "69e231736bb58d4a61ce11ee",
+    "name": "Scorchling",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/scorchling-69e231736bb58d4a61ce11ee.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-065",
+    "props": {
+      "Rarity": "Promo",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 3,
+      "CardNumber": null,
+      "SourceId": "69e231736bb58d4a61ce11ee"
+    }
+  },
+  {
+    "id": "69e2315996156d637cdfa455",
+    "name": "Dreadhound",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/dreadhound-69e2315996156d637cdfa455.jpg",
+    "cost": 3,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-017",
+    "props": {
+      "Rarity": "Promo",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 3,
+      "CardNumber": null,
+      "SourceId": "69e2315996156d637cdfa455"
+    }
+  },
+  {
+    "id": "69e2313c8a14a04bbee9480d",
+    "name": "Bandles",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/bandles-69e2313c8a14a04bbee9480d.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-003",
+    "props": {
+      "Rarity": "Promo",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 3,
+      "CardNumber": null,
+      "SourceId": "69e2313c8a14a04bbee9480d"
+    }
+  },
+  {
+    "id": "69e23120aebdc9dc152b8ce2",
+    "name": "Croaksis",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/croaksis-69e23120aebdc9dc152b8ce2.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-011",
+    "props": {
+      "Rarity": "Promo",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 7,
+      "CardNumber": null,
+      "SourceId": "69e23120aebdc9dc152b8ce2"
+    }
+  },
+  {
+    "id": "69e2310249b6ff9ffb6ccc18",
+    "name": "Froakage",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/froakage-69e2310249b6ff9ffb6ccc18.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-028",
+    "props": {
+      "Rarity": "Promo",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 4,
+      "CardNumber": null,
+      "SourceId": "69e2310249b6ff9ffb6ccc18"
+    }
+  },
+  {
+    "id": "69e230df74fde13f600a7818",
+    "name": "Necrostag",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/necrostag-69e230df74fde13f600a7818.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-056",
+    "props": {
+      "Rarity": "Promo",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 5,
+      "CardNumber": null,
+      "SourceId": "69e230df74fde13f600a7818"
+    }
+  },
+  {
+    "id": "EL-056",
+    "name": "Necrostag",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/necrostag-EL-056.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 5,
+      "CardNumber": 56,
+      "SourceId": "69e23061007cf1b7b5e7c65b"
+    }
+  },
+  {
+    "id": "69e22f6e1c47cd1517ca9a20",
+    "name": "Wilyhop",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/wilyhop-69e22f6e1c47cd1517ca9a20.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-083",
+    "props": {
+      "Rarity": "Promo",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 1,
+      "CardNumber": null,
+      "SourceId": "69e22f6e1c47cd1517ca9a20"
+    }
+  },
+  {
+    "id": "EL-089",
+    "name": "Deceptnut",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/deceptnut-EL-089.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-013",
+    "props": {
+      "Rarity": "Fabled Rare",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 7,
+      "CardNumber": 89,
+      "SourceId": "69e22d01e4fbf8b82e4963c5"
+    }
+  },
+  {
+    "id": "EL-013",
+    "name": "Deceptnut",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/deceptnut-EL-013.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 7,
+      "CardNumber": 13,
+      "SourceId": "69e22cdb6c376320615ea494"
+    }
+  },
+  {
+    "id": "EL-083",
+    "name": "Wilyhop",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/wilyhop-EL-083.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 1,
+      "CardNumber": 83,
+      "SourceId": "69e22cae4fd0d10567b5303c"
+    }
+  },
+  {
+    "id": "EL-065",
+    "name": "Scorchling",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/scorchling-EL-065.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 3,
+      "CardNumber": 65,
+      "SourceId": "69e22c8237313c8aefca182a"
+    }
+  },
+  {
+    "id": "EL-048",
+    "name": "Malfin",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/malfin-EL-048.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 2,
+      "CardNumber": 48,
+      "SourceId": "69dc5541d57fc7744c8f3dd9"
+    }
+  },
+  {
+    "id": "EL-071",
+    "name": "Slinktail",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/slinktail-EL-071.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 1,
+      "CardNumber": 71,
+      "SourceId": "69d7b5720f80b566af3c3c51"
+    }
+  },
+  {
+    "id": "EL-060",
+    "name": "Puddleflit",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/puddleflit-EL-060.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 1,
+      "CardNumber": 60,
+      "SourceId": "69d7b547676a8ad580ac85b7"
+    }
+  },
+  {
+    "id": "EL-034",
+    "name": "Gloomcap",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/gloomcap-EL-034.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 1,
+      "CardNumber": 34,
+      "SourceId": "69d7b50ca51fae0c36c8cfb6"
+    }
+  },
+  {
+    "id": "EL-033",
+    "name": "Gleamdrake",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/gleamdrake-EL-033.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 1,
+      "CardNumber": 33,
+      "SourceId": "69d7b46a0bb1e0bd3440bc98"
+    }
+  },
+  {
+    "id": "EL-092",
+    "name": "Kingjaw",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/kingjaw-EL-092.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-041",
+    "props": {
+      "Rarity": "Fabled Rare",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 8,
+      "CardNumber": 92,
+      "SourceId": "699623d42971ee43e2b43eb8"
+    }
+  },
+  {
+    "id": "EL-091",
+    "name": "Ghoulrex",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/ghoulrex-EL-091.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-029",
+    "props": {
+      "Rarity": "Fabled Rare",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 7,
+      "CardNumber": 91,
+      "SourceId": "699623c399ac4291bf75cc0d"
+    }
+  },
+  {
+    "id": "EL-090",
+    "name": "Dracoria",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/dracoria-EL-090.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-015",
+    "props": {
+      "Rarity": "Fabled Rare",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 7,
+      "CardNumber": 90,
+      "SourceId": "699623b0767c83bf38a7045d"
+    }
+  },
+  {
+    "id": "EL-088",
+    "name": "Regalhorn",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/regalhorn-EL-088.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-063",
+    "props": {
+      "Rarity": "Fabled Rare",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": null,
+      "CardNumber": 88,
+      "SourceId": "6996238b98df2b2594294338"
+    }
+  },
+  {
+    "id": "EL-087",
+    "name": "Krakenor",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/krakenor-EL-087.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-043",
+    "props": {
+      "Rarity": "Fabled Rare",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": null,
+      "CardNumber": 87,
+      "SourceId": "6996237adaf447647e5291e7"
+    }
+  },
+  {
+    "id": "EL-086",
+    "name": "Cryptag",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/cryptag-EL-086.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-012",
+    "props": {
+      "Rarity": "Fabled Rare",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": null,
+      "CardNumber": 86,
+      "SourceId": "699623651e2f8ff5897dad03"
+    }
+  },
+  {
+    "id": "EL-085",
+    "name": "Auroragon",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/auroragon-EL-085.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": "EL-001",
+    "props": {
+      "Rarity": "Fabled Rare",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": null,
+      "CardNumber": 85,
+      "SourceId": "6996235380b69ed215ac538e"
+    }
+  },
+  {
+    "id": "69962294a4939c7fcd1db28e",
+    "name": "Vulkarion",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/vulkarion-69962294a4939c7fcd1db28e.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 7,
+      "CardNumber": null,
+      "SourceId": "69962294a4939c7fcd1db28e"
+    }
+  },
+  {
+    "id": "69962284fc1d7a805dbb5565",
+    "name": "Shellfire",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/shellfire-69962284fc1d7a805dbb5565.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 2,
+      "CardNumber": null,
+      "SourceId": "69962284fc1d7a805dbb5565"
+    }
+  },
+  {
+    "id": "69962273fd6e2b2291a0ff24",
+    "name": "Rillix",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/rillix-69962273fd6e2b2291a0ff24.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 3,
+      "CardNumber": null,
+      "SourceId": "69962273fd6e2b2291a0ff24"
+    }
+  },
+  {
+    "id": "69962262b0fe2290b37876d4",
+    "name": "Mistickle",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/mistickle-69962262b0fe2290b37876d4.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 2,
+      "CardNumber": null,
+      "SourceId": "69962262b0fe2290b37876d4"
+    }
+  },
+  {
+    "id": "6996225296c7936a922903f9",
+    "name": "Manty",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/manty-6996225296c7936a922903f9.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 2,
+      "CardNumber": null,
+      "SourceId": "6996225296c7936a922903f9"
+    }
+  },
+  {
+    "id": "69962243348bdf294666f3ac",
+    "name": "Lunaflare",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/lunaflare-69962243348bdf294666f3ac.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 3,
+      "CardNumber": null,
+      "SourceId": "69962243348bdf294666f3ac"
+    }
+  },
+  {
+    "id": "69962233ba8830b92c7f506f",
+    "name": "Ignitor",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/ignitor-69962233ba8830b92c7f506f.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": null,
+      "CardNumber": null,
+      "SourceId": "69962233ba8830b92c7f506f"
+    }
+  },
+  {
+    "id": "699622257b0698237b6f7568",
+    "name": "Glimmus",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/glimmus-699622257b0698237b6f7568.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 5,
+      "CardNumber": null,
+      "SourceId": "699622257b0698237b6f7568"
+    }
+  },
+  {
+    "id": "6996221317ee04a8a09680ed",
+    "name": "Finwing",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/finwing-6996221317ee04a8a09680ed.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 3,
+      "CardNumber": null,
+      "SourceId": "6996221317ee04a8a09680ed"
+    }
+  },
+  {
+    "id": "69962204f08e64015a68bc79",
+    "name": "Coralyx",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/coralyx-69962204f08e64015a68bc79.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 5,
+      "CardNumber": null,
+      "SourceId": "69962204f08e64015a68bc79"
+    }
+  },
+  {
+    "id": "699621f43f73a65e956646c9",
+    "name": "Charbee",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/charbee-699621f43f73a65e956646c9.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 1,
+      "CardNumber": null,
+      "SourceId": "699621f43f73a65e956646c9"
+    }
+  },
+  {
+    "id": "699621e666b17c7aa7d7b143",
+    "name": "Aerospear",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/aerospear-699621e666b17c7aa7d7b143.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": null,
+      "CardNumber": null,
+      "SourceId": "699621e666b17c7aa7d7b143"
+    }
+  },
+  {
+    "id": "6996212f2e97452dcb088907",
+    "name": "Wulfrik",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/wulfrik-6996212f2e97452dcb088907.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": null,
+      "CardNumber": null,
+      "SourceId": "6996212f2e97452dcb088907"
+    }
+  },
+  {
+    "id": "6996211faae287da94a7375e",
+    "name": "Thumpster",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/thumpster-6996211faae287da94a7375e.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 2,
+      "CardNumber": null,
+      "SourceId": "6996211faae287da94a7375e"
+    }
+  },
+  {
+    "id": "6996210e5762fa86cdd24a10",
+    "name": "Swollbert",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/swollbert-6996210e5762fa86cdd24a10.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 5,
+      "CardNumber": null,
+      "SourceId": "6996210e5762fa86cdd24a10"
+    }
+  },
+  {
+    "id": "699620fb22edd06bbe7487f5",
+    "name": "Slashmane",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/slashmane-699620fb22edd06bbe7487f5.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 6,
+      "CardNumber": null,
+      "SourceId": "699620fb22edd06bbe7487f5"
+    }
+  },
+  {
+    "id": "699620e9d07d693bf1048154",
+    "name": "Pawnder",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/pawnder-699620e9d07d693bf1048154.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 3,
+      "CardNumber": null,
+      "SourceId": "699620e9d07d693bf1048154"
+    }
+  },
+  {
+    "id": "699620d7766ba50cfff93aa6",
+    "name": "Hexhopper",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/hexhopper-699620d7766ba50cfff93aa6.jpg",
+    "cost": 3,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 5,
+      "CardNumber": null,
+      "SourceId": "699620d7766ba50cfff93aa6"
+    }
+  },
+  {
+    "id": "699620c65cca15aa25cbd794",
+    "name": "Grinshade",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/grinshade-699620c65cca15aa25cbd794.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 2,
+      "CardNumber": null,
+      "SourceId": "699620c65cca15aa25cbd794"
+    }
+  },
+  {
+    "id": "699620b595fda25443377d85",
+    "name": "Ghoulfetch",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/ghoulfetch-699620b595fda25443377d85.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 3,
+      "CardNumber": null,
+      "SourceId": "699620b595fda25443377d85"
+    }
+  },
+  {
+    "id": "699620a57833c40c8e3931c6",
+    "name": "Gravemaw",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/gravemaw-699620a57833c40c8e3931c6.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 7,
+      "CardNumber": null,
+      "SourceId": "699620a57833c40c8e3931c6"
+    }
+  },
+  {
+    "id": "6996207c802cd051b0a091d1",
+    "name": "Cryptail",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/cryptail-6996207c802cd051b0a091d1.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 1,
+      "CardNumber": null,
+      "SourceId": "6996207c802cd051b0a091d1"
+    }
+  },
+  {
+    "id": "6996206d2bfb06fc4404bf5b",
+    "name": "Clawver",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/clawver-6996206d2bfb06fc4404bf5b.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Fishpals",
+        "Snugglers"
+      ],
+      "Rating": 2,
+      "CardNumber": null,
+      "SourceId": "6996206d2bfb06fc4404bf5b"
+    }
+  },
+  {
+    "id": "6996205afa48e37ce87ca106",
+    "name": "Bonelash",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/bonelash-6996205afa48e37ce87ca106.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "QED",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": null,
+      "CardNumber": null,
+      "SourceId": "6996205afa48e37ce87ca106"
+    }
+  },
+  {
+    "id": "EL-075",
+    "name": "Snibbit",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/snibbit-EL-075.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 1,
+      "CardNumber": 75,
+      "SourceId": "69961f47a6fadf680dcc1d17"
+    }
+  },
+  {
+    "id": "EL-070",
+    "name": "Shellock",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/shellock-EL-070.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 2,
+      "CardNumber": 70,
+      "SourceId": "69961f330e05dad68e955b88"
+    }
+  },
+  {
+    "id": "EL-064",
+    "name": "Rottenwrath",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/rottenwrath-EL-064.jpg",
+    "cost": 3,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 2,
+      "CardNumber": 64,
+      "SourceId": "69961efd0f87569c0fe72ab6"
+    }
+  },
+  {
+    "id": "EL-050",
+    "name": "Morbidos",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/morbidos-EL-050.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 5,
+      "CardNumber": 50,
+      "SourceId": "69961ed4f0961f35427fd20f"
+    }
+  },
+  {
+    "id": "EL-047",
+    "name": "Magelion",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/magelion-EL-047.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 3,
+      "CardNumber": 47,
+      "SourceId": "69961ec05cd65c4902d36919"
+    }
+  },
+  {
+    "id": "EL-041",
+    "name": "Kingjaw",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/kingjaw-EL-041.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 8,
+      "CardNumber": 41,
+      "SourceId": "69961eadddb5e08405ee2c56"
+    }
+  },
+  {
+    "id": "EL-036",
+    "name": "Harmonix",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/harmonix-EL-036.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 3,
+      "CardNumber": 36,
+      "SourceId": "69961e9d62b267c57c741601"
+    }
+  },
+  {
+    "id": "EL-031",
+    "name": "Gigawhale",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/gigawhale-EL-031.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 6,
+      "CardNumber": 31,
+      "SourceId": "69961e8c09762c3ec3e2d8d3"
+    }
+  },
+  {
+    "id": "EL-029",
+    "name": "Ghoulrex",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/ghoulrex-EL-029.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 7,
+      "CardNumber": 29,
+      "SourceId": "69961e793c97f4850ca72778"
+    }
+  },
+  {
+    "id": "EL-026",
+    "name": "Flarefox",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/flarefox-EL-026.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 2,
+      "CardNumber": 26,
+      "SourceId": "69961e663363117b71984e1f"
+    }
+  },
+  {
+    "id": "EL-021",
+    "name": "Enchantra",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/enchantra-EL-021.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 3,
+      "CardNumber": 21,
+      "SourceId": "69961e53e8af22c3f2475a14"
+    }
+  },
+  {
+    "id": "EL-019",
+    "name": "Emberheart",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/emberheart-EL-019.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 9,
+      "CardNumber": 19,
+      "SourceId": "69961e405231eb2c51834aea"
+    }
+  },
+  {
+    "id": "EL-015",
+    "name": "Dracoria",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/dracoria-EL-015.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 7,
+      "CardNumber": 15,
+      "SourceId": "69961e2cc9f5bffc2e66e1a1"
+    }
+  },
+  {
+    "id": "EL-014",
+    "name": "Dracoflap",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/dracoflap-EL-014.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 2,
+      "CardNumber": 14,
+      "SourceId": "69961e198d8f0b09cb2f5402"
+    }
+  },
+  {
+    "id": "EL-011",
+    "name": "Croaksis",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/croaksis-EL-011.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 7,
+      "CardNumber": 11,
+      "SourceId": "69961df46d9bb2c5288071ef"
+    }
+  },
+  {
+    "id": "EL-008",
+    "name": "Celesticorn",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/celesticorn-EL-008.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Rare",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 6,
+      "CardNumber": 8,
+      "SourceId": "69961de3af029ab9316dd585"
+    }
+  },
+  {
+    "id": "EL-084",
+    "name": "Wraithclaw",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/wraithclaw-EL-084.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 4,
+      "CardNumber": 84,
+      "SourceId": "69961cbd762453e2c54555cb"
+    }
+  },
+  {
+    "id": "EL-079",
+    "name": "Teddles",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/teddles-EL-079.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 6,
+      "CardNumber": 79,
+      "SourceId": "69961c94df0a3098986177b0"
+    }
+  },
+  {
+    "id": "EL-076",
+    "name": "Sphinxra",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/sphinxra-EL-076.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 6,
+      "CardNumber": 76,
+      "SourceId": "69961c7a519816a46f497ef7"
+    }
+  },
+  {
+    "id": "EL-073",
+    "name": "Snarlslash",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/snarlslash-EL-073.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": null,
+      "CardNumber": 73,
+      "SourceId": "69961c66d8e57bc0a50e794f"
+    }
+  },
+  {
+    "id": "EL-066",
+    "name": "Scorptide",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/scorptide-EL-066.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 4,
+      "CardNumber": 66,
+      "SourceId": "69961c54c2d0c556392c4022"
+    }
+  },
+  {
+    "id": "EL-063",
+    "name": "Regalhorn",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/regalhorn-EL-063.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": null,
+      "CardNumber": 63,
+      "SourceId": "69961c425110637ec578c742"
+    }
+  },
+  {
+    "id": "EL-062",
+    "name": "Ratscar",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/ratscar-EL-062.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 5,
+      "CardNumber": 62,
+      "SourceId": "69961c2d8f26387685af9fcb"
+    }
+  },
+  {
+    "id": "EL-043",
+    "name": "Krakenor",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/krakenor-EL-043.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": null,
+      "CardNumber": 43,
+      "SourceId": "69961c04933cdc7748f09fc2"
+    }
+  },
+  {
+    "id": "EL-040",
+    "name": "Hyrdodash",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/hyrdodash-EL-040.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 4,
+      "CardNumber": 40,
+      "SourceId": "69961bf25b71096045631822"
+    }
+  },
+  {
+    "id": "EL-038",
+    "name": "Hornspell",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/hornspell-EL-038.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 4,
+      "CardNumber": 38,
+      "SourceId": "69961bdfe39043679e955483"
+    }
+  },
+  {
+    "id": "EL-037",
+    "name": "Headlesscree",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/headlesscree-EL-037.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": null,
+      "CardNumber": 37,
+      "SourceId": "69961bce6e826832f757f31d"
+    }
+  },
+  {
+    "id": "EL-035",
+    "name": "Grimshaman",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/grimshaman-EL-035.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 3,
+      "CardNumber": 35,
+      "SourceId": "69961bbc940871464f83ae12"
+    }
+  },
+  {
+    "id": "EL-030",
+    "name": "Gigantorix",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/gigantorix-EL-030.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": null,
+      "CardNumber": 30,
+      "SourceId": "69961ba7849498130d323301"
+    }
+  },
+  {
+    "id": "EL-028",
+    "name": "Froakage",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/froakage-EL-028.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 4,
+      "CardNumber": 28,
+      "SourceId": "69961b96767c83bf38a6fc98"
+    }
+  },
+  {
+    "id": "EL-025",
+    "name": "Finra",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/finra-EL-025.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": null,
+      "CardNumber": 25,
+      "SourceId": "69961b842e1edf4d5c6b7abc"
+    }
+  },
+  {
+    "id": "EL-024",
+    "name": "Finodon",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/finodon-EL-024.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Dino",
+        "Fishpals"
+      ],
+      "Rating": 4,
+      "CardNumber": 24,
+      "SourceId": "69961b738df124fbcc4328d0"
+    }
+  },
+  {
+    "id": "EL-023",
+    "name": "Exoreap",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/exoreap-EL-023.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 6,
+      "CardNumber": 23,
+      "SourceId": "69961b24c207c99afa188922"
+    }
+  },
+  {
+    "id": "EL-020",
+    "name": "Emberkin",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/emberkin-EL-020.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 2,
+      "CardNumber": 20,
+      "SourceId": "69961b0ab8efcc77ece20455"
+    }
+  },
+  {
+    "id": "EL-017",
+    "name": "Dreadhound",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/dreadhound-EL-017.jpg",
+    "cost": 3,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 3,
+      "CardNumber": 17,
+      "SourceId": "69961af412a27f7f3e5bf347"
+    }
+  },
+  {
+    "id": "EL-012",
+    "name": "Cryptag",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/cryptag-EL-012.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": null,
+      "CardNumber": 12,
+      "SourceId": "69961ae2519816a46f497dab"
+    }
+  },
+  {
+    "id": "EL-007",
+    "name": "Brutehoof",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/brutehoof-EL-007.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 0,
+      "CardNumber": 7,
+      "SourceId": "69961abe0b7b3869174a7b1f"
+    }
+  },
+  {
+    "id": "EL-003",
+    "name": "Bandles",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/bandles-EL-003.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 3,
+      "CardNumber": 3,
+      "SourceId": "69961aab9344597aa9bfcf6a"
+    }
+  },
+  {
+    "id": "EL-002",
+    "name": "Axobubs",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/axobubs-EL-002.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 2,
+      "CardNumber": 2,
+      "SourceId": "69961a960a281252d480c937"
+    }
+  },
+  {
+    "id": "EL-001",
+    "name": "Auroragon",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/auroragon-EL-001.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Uncommon",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": null,
+      "CardNumber": 1,
+      "SourceId": "69961a7f8732d151b18451ad"
+    }
+  },
+  {
+    "id": "EL-082",
+    "name": "Whiskerwave",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/whiskerwave-EL-082.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 5,
+      "CardNumber": 82,
+      "SourceId": "6996183c6e4bc5ffbc7f7bdf"
+    }
+  },
+  {
+    "id": "EL-081",
+    "name": "Veolcifur",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/veolcifur-EL-081.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 3,
+      "CardNumber": 81,
+      "SourceId": "699618238732d151b1845037"
+    }
+  },
+  {
+    "id": "EL-080",
+    "name": "Twynight",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/twynight-EL-080.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": null,
+      "CardNumber": 80,
+      "SourceId": "6996180467344c3fa0a3959a"
+    }
+  },
+  {
+    "id": "EL-078",
+    "name": "Tadwink",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/tadwink-EL-078.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 1,
+      "CardNumber": 78,
+      "SourceId": "699617ea8941666b74513312"
+    }
+  },
+  {
+    "id": "EL-077",
+    "name": "Stitchghoul",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/stitchghoul-EL-077.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 2,
+      "CardNumber": 77,
+      "SourceId": "699617d15110637ec578c2f6"
+    }
+  },
+  {
+    "id": "EL-074",
+    "name": "Sneakfin",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/sneakfin-EL-074.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 3,
+      "CardNumber": 74,
+      "SourceId": "699617785d5b7105bf1d7037"
+    }
+  },
+  {
+    "id": "EL-072",
+    "name": "Slyscale",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/slyscale-EL-072.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 3,
+      "CardNumber": 72,
+      "SourceId": "6996175cb7d8c157df2b02d0"
+    }
+  },
+  {
+    "id": "EL-069",
+    "name": "Shellmigo",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/shellmigo-EL-069.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 0,
+      "CardNumber": 69,
+      "SourceId": "6996171ab7d8c157df2b02a3"
+    }
+  },
+  {
+    "id": "EL-067",
+    "name": "Serpentide",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/serpentide-EL-067.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": null,
+      "CardNumber": 67,
+      "SourceId": "699617021fbefa34472d532c"
+    }
+  },
+  {
+    "id": "EL-061",
+    "name": "Pumpkoul",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/pumpkoul-EL-061.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 6,
+      "CardNumber": 61,
+      "SourceId": "699616cb12a27f7f3e5bebfe"
+    }
+  },
+  {
+    "id": "EL-059",
+    "name": "Peekaboo",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/peekaboo-EL-059.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 1,
+      "CardNumber": 59,
+      "SourceId": "6996168edec981974700d992"
+    }
+  },
+  {
+    "id": "EL-058",
+    "name": "Nocturnix",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/nocturnix-EL-058.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Ghoulies",
+        "Dragons"
+      ],
+      "Rating": 6,
+      "CardNumber": 58,
+      "SourceId": "69961668911f763d8a096648"
+    }
+  },
+  {
+    "id": "EL-057",
+    "name": "Neffarat",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/neffarat-EL-057.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 6,
+      "CardNumber": 57,
+      "SourceId": "69961630dae703115b23f28e"
+    }
+  },
+  {
+    "id": "EL-055",
+    "name": "Necrorex",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/necrorex-EL-055.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": null,
+      "CardNumber": 55,
+      "SourceId": "699616090829711cb5be1531"
+    }
+  },
+  {
+    "id": "EL-054",
+    "name": "Necroninja",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/necroninja-EL-054.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 4,
+      "CardNumber": 54,
+      "SourceId": "699615eab3f0c48977ef1cb9"
+    }
+  },
+  {
+    "id": "EL-053",
+    "name": "Necrofowl",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/necrofowl-EL-053.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 3,
+      "CardNumber": 53,
+      "SourceId": "699615cf62a36a5eb0dbbc95"
+    }
+  },
+  {
+    "id": "EL-052",
+    "name": "Mysticaru",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/mysticaru-EL-052.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": null,
+      "CardNumber": 52,
+      "SourceId": "699615b383a2cb0a2d775789"
+    }
+  },
+  {
+    "id": "EL-051",
+    "name": "Mystenaga",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/mystenaga-EL-051.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": null,
+      "CardNumber": 51,
+      "SourceId": "69961591b4aa9374610b8dfa"
+    }
+  },
+  {
+    "id": "EL-046",
+    "name": "Luxurion",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/luxurion-EL-046.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 2,
+      "CardNumber": 46,
+      "SourceId": "69961554690e6347b931ad08"
+    }
+  },
+  {
+    "id": "EL-045",
+    "name": "Lurklash",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/lurklash-EL-045.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 4,
+      "CardNumber": 45,
+      "SourceId": "69961537a47d0e209f16b47a"
+    }
+  },
+  {
+    "id": "EL-044",
+    "name": "Lunalurk",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/lunalurk-EL-044.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 1,
+      "CardNumber": 44,
+      "SourceId": "6996151a3728c600517665e5"
+    }
+  },
+  {
+    "id": "EL-042",
+    "name": "Koalossus",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/koalossus-EL-042.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 4,
+      "CardNumber": 42,
+      "SourceId": "699614fcb73682890952f481"
+    }
+  },
+  {
+    "id": "EL-039",
+    "name": "Hyrdacoil",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/hyrdacoil-EL-039.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Fishpals"
+      ],
+      "Rating": 5,
+      "CardNumber": 39,
+      "SourceId": "699614e12ed4504d462b272b"
+    }
+  },
+  {
+    "id": "EL-032",
+    "name": "Gildstrider",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/gildstrider-EL-032.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 1,
+      "CardNumber": 32,
+      "SourceId": "69961485142be4ec937366b7"
+    }
+  },
+  {
+    "id": "EL-027",
+    "name": "Flutterdrake",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/flutterdrake-EL-027.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": null,
+      "CardNumber": 27,
+      "SourceId": "6996146a1e8a91d11d001790"
+    }
+  },
+  {
+    "id": "EL-022",
+    "name": "Evegon",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/evegon-EL-022.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 1,
+      "CardNumber": 22,
+      "SourceId": "6996144da82fc98ec251bfa0"
+    }
+  },
+  {
+    "id": "EL-018",
+    "name": "Dribbit",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/dribbit-EL-018.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 1,
+      "CardNumber": 18,
+      "SourceId": "69961433d50bef2e0947b22f"
+    }
+  },
+  {
+    "id": "EL-016",
+    "name": "Drakara",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/drakara-EL-016.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": null,
+      "CardNumber": 16,
+      "SourceId": "69961413b8f39058dcd095c8"
+    }
+  },
+  {
+    "id": "EL-010",
+    "name": "Clawnix",
+    "type": "Monster",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/clawnix-EL-010.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": null,
+      "CardNumber": 10,
+      "SourceId": "699613f41db0ecc43662fbef"
+    }
+  },
+  {
+    "id": "EL-005",
+    "name": "Bluemerk",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/bluemerk-EL-005.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 3,
+      "CardNumber": 5,
+      "SourceId": "699613d299a09934a03a7395"
+    }
+  },
+  {
+    "id": "EL-009",
+    "name": "Chubbagon",
+    "type": "Legend",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/chubbagon-EL-009.jpg",
+    "cost": 0,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 8,
+      "CardNumber": 9,
+      "SourceId": "699613ae39e8e32cadcebb3e"
+    }
+  },
+  {
+    "id": "EL-006",
+    "name": "Bogstalker",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/bogstalker-EL-006.jpg",
+    "cost": 2,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Ghoulies"
+      ],
+      "Rating": 3,
+      "CardNumber": 6,
+      "SourceId": "69961390c2d0c556392c39f5"
+    }
+  },
+  {
+    "id": "EL-004",
+    "name": "Blazewing",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/blazewing-EL-004.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Dragons"
+      ],
+      "Rating": 4,
+      "CardNumber": 4,
+      "SourceId": "6996133f8093730cd2082dca"
+    }
+  },
+  {
+    "id": "EL-049",
+    "name": "Melanchlaw",
+    "type": "Basic",
+    "image": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/melanchlaw-EL-049.jpg",
+    "cost": 1,
+    "isToken": false,
+    "isHorizontal": false,
+    "alternateOf": null,
+    "props": {
+      "Rarity": "Common",
+      "Traits": [
+        "Snugglers"
+      ],
+      "Rating": 3,
+      "CardNumber": 49,
+      "SourceId": "699611a612a27f7f3e5be74e"
     }
   }
 ]

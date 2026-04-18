@@ -16,13 +16,53 @@
         "options": {
           "zones": [
             {
+              "zoneId": "monster1",
+              "name": "Monster Zone 1",
+              "count": 1,
+              "faceDown": true,
+              "random": true,
+              "deckSections": [
+                "monster"
+              ]
+            },
+            {
+              "zoneId": "monster2",
+              "name": "Monster Zone 2",
+              "count": 1,
+              "faceDown": true,
+              "random": true,
+              "deckSections": [
+                "monster"
+              ]
+            },
+            {
+              "zoneId": "monster3",
+              "name": "Monster Zone 3",
+              "count": 1,
+              "faceDown": true,
+              "random": true,
+              "deckSections": [
+                "monster"
+              ]
+            },
+            {
+              "zoneId": "delete",
+              "name": "Delete Monster",
+              "count": -1,
+              "faceDown": true,
+              "random": true,
+              "deckSections": [
+                "monster"
+              ]
+            },
+            {
               "zoneId": "mainDeck",
               "name": "Main Deck",
               "count": -1,
               "faceDown": true,
               "deckSections": [
-                "unit",
-                "spell"
+                "Basic Critter",
+                "Legendary Critter"
               ]
             }
           ]

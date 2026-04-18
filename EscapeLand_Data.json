@@ -1,12 +1,15 @@
 {
   "cards": "https://balbi.github.io/TCGSim-Escape-Land/EscapeLand_Cards.json",
-  "cardBack": null,
+  "cardBack": "https://balbi.github.io/TCGSim-Escape-Land/images/cards/card_back.png",
   "cardBackColor": "#13293d",
   "cardBackOverrides": null,
   "decks": null,
   "automation": "https://balbi.github.io/TCGSim-Escape-Land/EscapeLand_Automation.json",
   "playmats": [
-    "https://placehold.co/1600x900/0f172a/e2e8f0?text=Escape+Land+Playmat"
+    "https://balbi.github.io/TCGSim-Escape-Land/images/playmats/Dplaymat.png",
+    "https://balbi.github.io/TCGSim-Escape-Land/images/playmats/FPplaymat.png",
+    "https://balbi.github.io/TCGSim-Escape-Land/images/playmats/Gplaymat.png",
+    "https://balbi.github.io/TCGSim-Escape-Land/images/playmats/SNplaymat.png"
   ],
   "formats": [
     {
@@ -14,7 +17,7 @@
       "name": "Standard",
       "rules": "standard",
       "deckRules": "standard",
-      "layout": "duel",
+      "layout": "standard",
       "automation": "standard"
     }
   ],
@@ -23,20 +26,20 @@
       "id": "standard",
       "gamePhases": [
         {
-          "id": "draw",
-          "name": "Draw",
+          "id": "recovery",
+          "name": "Recovery",
           "interruptable": false,
           "pause": false
         },
         {
-          "id": "main",
-          "name": "Main",
-          "interruptable": true,
+          "id": "action",
+          "name": "Action",
+          "interruptable": false,
           "pause": true
         },
         {
-          "id": "end",
-          "name": "End",
+          "id": "escape",
+          "name": "Escape",
           "interruptable": true,
           "pause": false
         }
@@ -52,38 +55,43 @@
           "id": "main",
           "title": "Main Deck",
           "types": [
-            "Unit",
-            "Spell"
+            "Basic Critter",
+            "Legendary Critter",
+            "Monster"
           ],
-          "maxCopies": 3,
-          "minCount": 40,
-          "maxCount": 40,
+          "minCount": 44,
+          "maxCount": 44,
           "categories": [
             {
-              "id": "unit",
-              "title": "Units",
+              "id": "critters",
+              "title": "Critters",
               "allowedTypes": [
-                "Unit"
+                "Basic Critter",
+                "Legendary Critter"
               ],
               "default": true,
               "listLabel": "MainDeck",
               "listAliases": [
                 "Main Deck"
               ],
-              "listOrder": 10
+              "minCount": 40,
+              "maxCount": 40,
+              "maxCopies": 3
             },
             {
-              "id": "spell",
-              "title": "Spells",
+              "id": "monsters",
+              "title": "Monsters",
               "allowedTypes": [
-                "Spell"
+                "Monster"
               ],
               "default": true,
               "listLabel": "MainDeck",
               "listAliases": [
                 "Main Deck"
               ],
-              "listOrder": 20
+              "minCount": 4,
+              "maxCount": 4,
+              "maxCopies": 1
             }
           ]
         }
@@ -98,21 +106,95 @@
   },
   "layouts": [
     {
-      "id": "duel",
+      "id": "standard",
       "rows": [
         {
           "size": "MEDIUM",
           "zones": [
             {
-              "id": "board",
-              "name": "Board",
-              "expand": true,
+              "id": "critter1",
+              "name": "Critter",
+              "expand": false,
               "allowedCardTypes": [
                 {
-                  "type": "Unit"
+                  "type": "Basic Critter"
                 },
                 {
-                  "type": "Spell"
+                  "type": "Legendary Critter"
+                }
+              ]
+            },
+            {
+              "id": "critter2",
+              "name": "Critter",
+              "expand": false,
+              "allowedCardTypes": [
+                {
+                  "type": "Basic Critter"
+                },
+                {
+                  "type": "Legendary Critter"
+                }
+              ]
+            },
+            {
+              "id": "critter3",
+              "name": "Critter",
+              "expand": false,
+              "allowedCardTypes": [
+                {
+                  "type": "Basic Critter"
+                },
+                {
+                  "type": "Legendary Critter"
+                }
+              ]
+            },
+            {
+              "id": "critter4",
+              "name": "Critter",
+              "expand": false,
+              "allowedCardTypes": [
+                {
+                  "type": "Basic Critter"
+                },
+                {
+                  "type": "Legendary Critter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "size": "MEDIUM",
+          "zones": [
+            {
+              "id": "monster1",
+              "name": "Monster",
+              "expand": false,
+              "allowedCardTypes": [
+                {
+                  "type": "Monster"
+                }
+              ]
+            },
+            {
+              "id": "monster2",
+              "name": "Monster",
+              "expand": false,
+              "allowedCardTypes": [
+                {
+                  "type": "Monster"
+                }
+              ]
+            },
+            {
+              "id": "monster3",
+              "name": "Monster",
+              "expand": false,
+              "allowedCardTypes": [
+                {
+                  "type": "Monster"
                 }
               ]
             }
@@ -140,11 +222,11 @@
           "name": "Main Deck",
           "allowedCardTypes": [
             {
-              "type": "Unit",
+              "type": "Basic Critter",
               "faceDown": true
             },
             {
-              "type": "Spell",
+              "type": "Legendary Critter",
               "faceDown": true
             }
           ]
@@ -155,10 +237,10 @@
           "name": "Trash",
           "allowedCardTypes": [
             {
-              "type": "Unit"
+              "type": "Basic Critter"
             },
             {
-              "type": "Spell"
+              "type": "Legendary Critter"
             }
           ]
         }
