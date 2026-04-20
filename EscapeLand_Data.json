@@ -200,6 +200,18 @@
       ],
       "reservedZones": [
         {
+          "id": "ep",
+          "type": "COUNTER",
+          "icon": "https://balbi.github.io/TCGSim-Escape-Land/images/icons/ep_icon.png",
+          "startValue": 0
+        },
+        {
+          "id": "ap",
+          "type": "COUNTER",
+          "icon": "https://balbi.github.io/TCGSim-Escape-Land/images/icons/ap_icon.png",
+          "startValue": 0
+        },
+        {
           "id": "hand",
           "name": "Hand",
           "expand": true,

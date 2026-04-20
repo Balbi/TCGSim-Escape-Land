@@ -6,7 +6,8 @@
         "type": "deck_selection",
         "name": "Deck Selection",
         "options": {
-          "requireValidDeck": true
+          "requireValidDeck": true,
+          "allowEdit": false
         }
       },
       {
@@ -89,10 +90,99 @@
           "destination": "hand",
           "cardCount": 4,
           "type": "replace_hand",
+          "replaceDestination": "deck_bottom",
           "allowMultiple": false,
           "shuffleBeforeRedraw": true,
           "revealRemoved": true
         }
+      }
+    ],
+    "phaseProcess": [
+      {
+        "phase": "recovery",
+        "actions": [
+          {
+            "type": "untap",
+            "cardTypes": [
+              "Basic",
+              "Legend",
+              "Monster"
+            ],
+            "zones": [
+              "critter1",
+              "critter2",
+              "critter3",
+              "critter4",
+              "monster1",
+              "monster2",
+              "monster3"
+            ]
+          },
+          {
+            "type": "counter",
+            "counterId": "ap",
+            "modifier": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "requirement": "all",
+                "conditions": [
+                  {
+                    "type": "equal",
+                    "check": "isStartingPlayer",
+                    "value": true
+                  },
+                  {
+                    "type": "equal",
+                    "check": "currentPlayerTurn",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "counter",
+            "counterId": "ap",
+            "modifier": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "requirement": "all",
+                "conditions": [
+                  {
+                    "type": "equal",
+                    "check": "isLastPlayer",
+                    "value": true
+                  },
+                  {
+                    "type": "equal",
+                    "check": "currentPlayerTurn",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "counter",
+            "counterId": "ap",
+            "modifier": "set",
+            "value": 3,
+            "conditions": [
+              {
+                "requirement": "all",
+                "conditions": [
+                  {
+                    "type": "gt",
+                    "check": "currentPlayerTurn",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }
