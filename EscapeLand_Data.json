@@ -104,6 +104,8 @@
       "rows": [
         {
           "size": "MEDIUM",
+          "justify": "space-around",
+          "expand": true,
           "zones": [
             {
               "id": "critter1",
@@ -161,6 +163,7 @@
         },
         {
           "size": "MEDIUM",
+          "justify": "space-around",
           "zones": [
             {
               "id": "monster1",
@@ -231,18 +234,17 @@
           "name": "Main Deck",
           "allowedCardTypes": [
             {
-              "type": "Basic",
-              "faceDown": true
+              "type": "Basic"
             },
             {
-              "type": "Legend",
-              "faceDown": true
+              "type": "Legend"
             }
-          ]
+          ],
+          "faceDown": true
         },
         {
           "id": "trash",
-          "type": "PILE",
+          "type": "DECK",
           "name": "Trash",
           "allowedCardTypes": [
             {
@@ -251,7 +253,8 @@
             {
               "type": "Legend"
             }
-          ]
+          ],
+          "faceDown": false
         }
       ]
     }
