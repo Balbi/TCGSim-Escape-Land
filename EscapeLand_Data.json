@@ -104,12 +104,13 @@
       "rows": [
         {
           "size": "MEDIUM",
-          "justify": "space-around",
+          "justify": "space-between",
           "expand": true,
           "zones": [
             {
               "id": "critter1",
               "name": "Critter",
+              "hideName": true,
               "expand": false,
               "allowedCardTypes": [
                 {
@@ -123,6 +124,7 @@
             {
               "id": "critter2",
               "name": "Critter",
+              "hideName": true,
               "expand": false,
               "allowedCardTypes": [
                 {
@@ -136,6 +138,7 @@
             {
               "id": "critter3",
               "name": "Critter",
+              "hideName": true,
               "expand": false,
               "allowedCardTypes": [
                 {
@@ -149,6 +152,7 @@
             {
               "id": "critter4",
               "name": "Critter",
+              "hideName": true,
               "expand": false,
               "allowedCardTypes": [
                 {
@@ -168,6 +172,7 @@
             {
               "id": "monster1",
               "name": "Monster",
+              "hideName": true,
               "expand": false,
               "disablePreview": true,
               "allowedCardTypes": [
@@ -179,6 +184,7 @@
             {
               "id": "monster2",
               "name": "Monster",
+              "hideName": true,
               "expand": false,
               "disablePreview": true,
               "allowedCardTypes": [
@@ -190,6 +196,7 @@
             {
               "id": "monster3",
               "name": "Monster",
+              "hideName": true,
               "expand": false,
               "disablePreview": true,
               "allowedCardTypes": [
@@ -232,6 +239,7 @@
           "type": "DECK",
           "drawTo": "hand",
           "name": "Main Deck",
+          "hideName": true,
           "allowedCardTypes": [
             {
               "type": "Basic"
@@ -246,6 +254,7 @@
           "id": "trash",
           "type": "DECK",
           "name": "Trash",
+          "hideName": true,
           "allowedCardTypes": [
             {
               "type": "Basic"
